@@ -1,0 +1,47 @@
+/* CSS for Navbar */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: white; /* Text color for navbar items */
+    padding: -11px 20px; /* Spacing around navbar */
+    /* width: 100%; */
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo p{
+    font-size: 24px;
+  }
+
+  @media (max-width:728px) {
+    .navbar{
+      flex-direction: column;
+    }
+    
+  }
+  
+  .nav-list {
+    list-style: none; /* Remove bullet points from list */
+    padding: 0;
+    display: flex; /* Display list items in a row */
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* Spacing between navbar items */
+  }
+  
+  .nav-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .nav-item a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  

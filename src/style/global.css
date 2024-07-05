@@ -1,0 +1,21 @@
+
+.global{
+    /* background-image: ; */
+    background-image:url('../assets/bc.jpg');
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center center;
+    background-attachment: fixed;
+
+    margin: 0px;
+    padding:0px;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    font-family: poppins;
+}

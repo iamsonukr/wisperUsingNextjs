@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#imz {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome {
+  background-color: #fff;
+
+  padding: 100px 60px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+}
+
+.welcome h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+  color: #0070f3;
+}
+
+.welcome h2 {
+  margin: 0 0 15px;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #333;
+}
+
+.welcome h3 {
+  margin: 0 0 20px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+#btn {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+#btn:hover {
+  background-color: #005bb5;
+}
+
+#lk {
+  text-decoration: none;
+  color: white;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.intro {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+.intro h2 {
+  margin: 0 0 10px;
+  font-size: 1.8rem;
+  color: #0070f3;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .welcome, .intro {
+    padding: 20px;
+  }
+
+  .welcome h1 {
+    font-size: 1.5rem;
+  }
+
+  .welcome h2, .intro h2 {
+    font-size: 1.2rem;
+  }
+
+  .welcome h3, .intro p {
+    font-size: 1rem;
+  }
+
+  #btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome h1 {
+    font-size: 1.2rem;
+  }
+
+  .welcome h2, .intro h2 {
+    font-size: 1rem;
+  }
+
+  .welcome h3, .intro p {
+    font-size: 0.9rem;
+  }
+
+  #btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
